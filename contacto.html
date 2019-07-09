@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bienes raices</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="site-header">
+    <!-- CABECERA -->
+    <div class="contenedor contenido-header">
+      <div class="barra">
+        <a href="./index.html">
+          <img id="logo" src="./img/logo.svg" alt="logo.svg">
+        </a>
+        <nav class="navegacion">
+          <!-- NAVEGACION CABECERA -->
+          <a href="./nosotros.html">nosotros</a>
+          <a href="./anuncios.html">anuncios</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contacto.html">Contacto</a>
+          <a target="_blank" href="https://www.linkedin.com/in/essanper/">LinkedIn</a>
+        </nav><!-- FIN NAVEGACION CABECERA-->
+      </div>
+    </div>
+  </header><!-- FIN CABECERA -->
+
+  <h1 class="fw_300 ta_center">Contacto</h1>
+  <img src="./img/destacada3.jpg" alt="destacada3">
+
+  <main class="contenedor seccion contenido_centrado">
+    <h2 class="fw_300 ta_center">Rellena el siguiente formulario</h2>
+
+    <form class="from_contacto" action="" method='POST'>
+
+      <fieldset>
+        <legend>Información personal</legend>
+        <label for="nombreUsuario">Nombre usuario:</label> <input type="text" id="nombreUsuario" placeholder="tu nombre" required>
+        <label for="emailUsuario">E-mail:</label> <input type="email" id="emailUsuario" placeholder="tu dirección de email" required>
+        <label for="telefonoUsuario">Teléfono:</label> <input type="tel" id="telefonoUsuario" placeholder="tu telefono" required>
+        <label for="mensajeUsuario">Mensaje:</label> <textarea name="mensajeUsuario" id="mensajeUsuario"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Información sobre la propiedad</legend>
+        <label for="opcionPropiedad">Vender o Comprar:</label>
+        <select name="opcionPropiedad" id="opcionPropiedad">
+          <option disabled selected value> -- seleciona una opción -- </option>
+          <option value="comprar">Comprar</option>
+          <option value="vender">Vender</option>
+        </select>
+        <label for="cantidadUsuario">Presupuesto de Propiedad:</label>
+        <input type="number" min="0">
+      </fieldset>
+
+      <fieldset>
+        <legend>Contacto</legend>
+        <p>¿Cómo desea ser contactado?</p>
+        <div class="from_radioContacto">
+          <label for="telefonoContacto">Teléfono</label>
+          <input type="radio" name="radioContacto" id="telefonoContacto" value="telefonoContacto">
+          <label for="emailContacto">E-mail</label>
+          <input type="radio" name="radioContacto" id="emailContacto" value="emailContacto">
+        </div>
+
+        <p>Si eligió Teléfono, escoja un horario de disponibilidad:</p>
+        <label for="fechaContacto">Fecha disponible:</label>
+        <input type="date" id="fechaContacto">
+        <label for="horaContacto">Hora disponible:</label>
+        <input type="time" id="horaContacto">
+      </fieldset>
+
+      <input type="submit" value="Enviar" class="boton boton_verde">
+    </form>
+
+  </main>
+
+  <footer class="div_footer seccion"><!-- PIE DE PAGINA -->
+    <div class="contenedor contenido_footer">
+      <nav class="navegacion"><!-- NAVEGACION PIE DE PAGINA -->
+        <a href="./nosotros.html">nosotros</a>
+        <a href="./anuncios.html">anuncios</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./contacto.html">Contacto</a>
+        <a target="_blank" href="https://www.linkedin.com/in/essanper/">LinkedIn</a>
+      </nav><!-- FIN NAVEGACION PIE DE PAGINA -->
+      <p class="copyright">E. Samuel Santiago Pérez &copy;</p>
+    </div>
+  </footer><!-- FIN PIE DE PAGINA -->
+</body>
+
+</html>
