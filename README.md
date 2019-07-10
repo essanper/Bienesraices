@@ -12,4 +12,3 @@ It haven't database or language back-end only Front-end (pages statics)
 
 You can see it on Netlify here:
 https://bienesraices-essanper.netlify.com/
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
