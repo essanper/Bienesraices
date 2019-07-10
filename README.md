@@ -4,7 +4,7 @@
 
 This's a personal project.
 
-I developed this website only with HTML and CSS, I use grid and flex for do it responsive, It haven't frameworks (Bootstrap, materialize) or libraries (JQuery, JavaScript).
+I developed this website only with HTML and CSS, I use grid and flex for do it responsive, It haven't libraries/frameworks CSS (Bootstrap, Materialize) or libraries/frameworks front-end (JQuery, JavaScript, ReactJs)
 
 This's a website static, only pages statics 
 
