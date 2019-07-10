@@ -11,6 +11,5 @@ This's a website static, only pages statics
 It haven't database or language back-end only Front-end (pages statics)
 
 You can see it on Netlify here:
-<a href="https://bienesraices-essanper.netlify.com/" target="_blank">Bienesraices Essanper</a>
-
+https://bienesraices-essanper.netlify.com/
 
