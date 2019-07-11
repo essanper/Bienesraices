@@ -225,7 +225,7 @@ body {
 }
 
 .div_carta img {
-  padding-left: 2rem;
+  padding: 1rem;
 }
 
 .div_carta {
@@ -258,7 +258,13 @@ body {
 .precio {
   color: #E08709;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+@media (min-width: 1000px){
+  .precio {
+    font-size: 3rem;
+  }
 }
 
 .iconos_carta {
@@ -275,10 +281,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 1rem;
 }
 
 .iconos_carta li img {
-  margin-right: 2rem;
+  padding-right: 1rem;
   width: 6rem;
   height: 6rem;
 }
