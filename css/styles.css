@@ -263,7 +263,7 @@ body {
 
 @media (min-width: 1000px){
   .precio {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -292,8 +292,8 @@ body {
 
 @media (min-width: 1000px){
   .iconos_carta li img {
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
   }
   .iconos_carta li p {
     margin-left: 0;
